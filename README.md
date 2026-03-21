@@ -143,6 +143,7 @@ This project was created to demonstrate:
 It is intended to showcase practical database skills applicable to data analyst, business intelligence, and database roles.
 
 
-
+## Author
+Kc Korie.
 
 
