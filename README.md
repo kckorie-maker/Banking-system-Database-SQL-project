@@ -102,7 +102,7 @@ This project helps you understand:
 * Business Logic: Banking domain concepts and transaction tracking
 * Real-world Scenarios: Queries that answer actual business questions
 
-## Use Cases
+## Areas this project will be useful
 * Bank Management: Track customer base and account distribution
 * Fraud Detection: Monitor large or unusual transactions
 * Customer Service: Quick access to customer information
@@ -120,6 +120,7 @@ This project helps you understand:
 
 Dataset
 The project uses a sample dataset that includes:
+
 customers
 
 accounts
