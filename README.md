@@ -6,7 +6,7 @@ This database system is designed to manage core banking operations, storing and 
 ## Database Schema
 ## 1. Customer Table
      * Stores all personal information about bank customers
-     customer_id: Unique identifier (Primary Key, Auto-increment)
+     - customer_id: Unique identifier (Primary Key, Auto-increment)
      First_name, Last_name: Customer's name (NOT NULL)
      email: Unique email address for communication
      phone_number: Unique contact number
