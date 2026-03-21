@@ -28,12 +28,12 @@ Customers Stores personal and demographic information about bank customers.
 * Created_at: Account opening timestamp
 
 ## 3. Transaction Table
-      Records every financial transaction made on accounts
-      Account_id: Identifies which account the transaction belongs to
-      Transaction_type: Categorizes transactions (Deposit, withdrawal, Transfer, payment, fee, Interest)
-      Amount: Transaction amount with 2 decimal precision
-      Transaction_date: Automatic timestamp of when transaction occurred
-      Description: Additional details about the transaction
+## Records every financial transaction made on accounts
+* Account_id: Identifies which account the transaction belongs to
+* Transaction_type: Categorizes transactions (Deposit, withdrawal, Transfer, payment, fee, Interest)
+* Amount: Transaction amount with 2 decimal precision
+* Transaction_date: Automatic timestamp of when transaction occurred
+* Description: Additional details about the transaction
 
 ## Basic Queries
 Retrieve all customer information
@@ -92,30 +92,54 @@ LIMIT 5;
 SELECT * FROM transaction
 ORDER BY amount DESC
 LIMIT 5, 5;
-## Range queries: Using BETWEEN operator
 
 ## Key Learning Outcomes
 This project helps you understand:
-    Database Design: Proper table relationships, data types, and constraints
-    Data Integrity: Primary keys, foreign keys, unique constraints, and default values
-    SQL Fundamentals: SELECT, WHERE, ORDER BY, DISTINCT, LIMIT
-    Filtering Techniques: Multiple conditions, BETWEEN, date filtering
-    Business Logic: Banking domain concepts and transaction tracking
-
-Real-world Scenarios: Queries that answer actual business questions
+* Database Design: Proper table relationships, data types, and constraints
+* Data Integrity: Primary keys, foreign keys, unique constraints, and default values
+* SQL Fundamentals: SELECT, WHERE, ORDER BY, DISTINCT, LIMIT
+* Filtering Techniques: Multiple conditions, BETWEEN, date filtering
+* Business Logic: Banking domain concepts and transaction tracking
+* Real-world Scenarios: Queries that answer actual business questions
 
 ## Use Cases
-Bank Management: Track customer base and account distribution
-Fraud Detection: Monitor large or unusual transactions
-Customer Service: Quick access to customer information
-Reporting: Generate statements and transaction histories
-Audit Trail: Complete record of all financial activities
-Risk Management: Identify inactive accounts or unusual patterns
+* Bank Management: Track customer base and account distribution
+* Fraud Detection: Monitor large or unusual transactions
+* Customer Service: Quick access to customer information
+* Reporting: Generate statements and transaction histories
+* Audit Trail: Complete record of all financial activities
+* Risk Management: Identify inactive accounts or unusual patterns
 
-## Technologies Used
-Database: MySQL / bankingsystemDB
+## Some examples of insights generated in the project include:
+* Listing all customers and their accounts
+* Identifying customers with multiple accounts
+* Retrieving high-balance accounts
+* Tracking transaction activity
+* Analyzing transaction patterns
+* These queries demonstrate how SQL can be used for operational reporting and financial data analysis. database-queries
 
-Language: SQL (Structured Query Language)
+Dataset
+The project uses a sample dataset that includes:
+customers
+
+accounts
+
+transactions
+
+The dataset is designed to simulate realistic banking activity, where customers may own multiple accounts and perform various financial transactions.
+
+## Tools and Technologies
+* SQL
+* Relational Database Concepts
+* SQL Workbench / MySQL compatible syntax
+* GitHub 
+## Project Purpose
+This project was created to demonstrate:
+* SQL proficiency
+* Relational database design
+* Analytical querying
+* Data organization and reporting
+It is intended to showcase practical database skills applicable to data analyst, business intelligence, and database roles.
 
 
 
