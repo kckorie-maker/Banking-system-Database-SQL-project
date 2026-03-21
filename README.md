@@ -2,16 +2,22 @@
 # Overview
 This database system is designed to manage core banking operations, storing and retrieving information about customers, their accounts, and all financial transactions. It serves as an excellent example of relational database design for the banking domain and provides hands-on practice with SQL queries ranging from basic to intermediate levels
 ## Objectives
+###The primary objectives of this project are to:
+      *Design a relational database schema for a banking system.
+      *Implement table relationships using primary and foreign keys.
+      *Populate the database with realistic sample banking data.
+      *Write SQL queries to retrieve, filter, and analyze financial records.  
+      *Demonstrate data organization and analytical querying techniques.   
+## Database Structure
+### The system consists of three main entities:
+Customers Stores personal and demographic information about bank customers.
 
-
-## 1. Customer Table
-     * Stores all personal information about bank customers
-     - customer_id: Unique identifier (Primary Key, Auto-increment)
-     First_name, Last_name: Customer's name (NOT NULL)
-     email: Unique email address for communication
-     phone_number: Unique contact number
-     Address, City, Country: Location information
-     Created_at: Automatically records when the customer was added
+* customer_id
+* first_name
+* last_name
+* email
+* phone_number
+* address
 
 ## 2. Accounts Table
       Manages all bank accounts with their current status and balance
