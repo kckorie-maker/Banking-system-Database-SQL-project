@@ -144,6 +144,6 @@ It is intended to showcase practical database skills applicable to data analyst,
 
 
 ## Author
-Kc Korie.
+   Kc Korie.
 
 
