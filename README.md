@@ -20,12 +20,12 @@ Customers Stores personal and demographic information about bank customers.
 * address
 
 ## 2. Accounts Table
-      Manages all bank accounts with their current status and balance
-      Customer_id: Links account to a customer (Foreign Key)
-      Account_type: Supports three types - saving, current, fixed_deposit
-      Account_status: Tracks if account is Active or Inactive (Defaults to Active)
-      Balance: Current account balance with 2 decimal precision
-      Created_at: Account opening timestamp
+## Manages all bank accounts with their current status and balance
+* Customer_id: Links account to a customer (Foreign Key)
+* Account_type: Supports three types - saving, current, fixed_deposit
+* Account_status: Tracks if account is Active or Inactive (Defaults to Active)
+* Balance: Current account balance with 2 decimal precision
+* Created_at: Account opening timestamp
 
 ## 3. Transaction Table
       Records every financial transaction made on accounts
